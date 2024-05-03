@@ -3,9 +3,8 @@
 # Part 1: Imaging Technique Inspiration
 
 
-![Thanksgiving Break](readmeImages/Thanksgiving break 1.jpg)
+![An image of thanksgiving break 1](readmeImages/1.jpg)
 
-![An image of Thanksgiving Break 2](readmeImages/Thanksgiving break 1.jpg)
 
 ![An image of Thanksgiving Break 1](https://www.maxemitchell.com/code_art/thanksgiving_break)
 
