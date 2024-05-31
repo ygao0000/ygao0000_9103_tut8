@@ -1,26 +1,15 @@
 # ygao0000_9103_tut8
+# Bubble of Emotions Animation Project
 
-# Part 1: Imaging Technique Inspiration
+## How to Interact
+- Play Music: Click on any bubble to play the corresponding song. Each bubble represents a different emotion and will trigger a unique audio file.
+- Pause/Resume Music: Use the "Play/Stop" button at the bottom of the screen to pause or resume the currently playing song.
+- Observe Animation: Move the mouse slowly over the screen to interact with the bubbles. Notice how the bubbles move and change size in response to the audio being played.
+- Responsive Bubbles: Watch how the size of the bubbles reacts to the sound level of the playing audio, creating a dynamic visual experience.
 
+## Individual Approach
+- Audio Interaction: My code uniquely drives the animation based on audio input, making the bubbles react to the sound level of the playing song.
+- Gradient Colors and Text Effects: The use of gradient colors and dynamic text effects within the bubbles sets my animation apart, providing a visually engaging experience.
 
-![An image of thanksgiving break 1](readmeImages/1.jpg)
-
-![An image of thanksgiving break 2](readmeImages/2.jpg)
-
-[Link Text](https://www.maxemitchell.com/code_art/thanksgiving_break)
-
-
-I would like to incorporate the audio visualization and user interaction techniques from the example into my project. The addition of music brings more energy to the coding, and the way the circles randomly move with the music makes it possible to visualize the sound. The colorful design of the colors makes the entire scene eye-catching. This technique provides a combined visual and auditory experience, which is very engaging and appealing.
-
-
-# Part 2:Coding Technique Exploration
-
-## Coding technology：p5.FFT
-
-FFT (Fast Fourier Transform) is an analysis algorithm that isolates individual audio frequencies within a waveform.
-
-This coding technique can analyze an audio source and visualize its waveform, making sound visible. By utilizing this technique and incorporating design elements, you can achieve the desired visual effects like those shown in the example.
-
-![An image of code example](readmeImages/code.jpg)
-
-[Link Text](https://p5js.org/reference/#/p5.FFT)
+## Inspiration
+![image1](/Users/gaoyumeng/Desktop/ygao0000_9103_tut8/images/image1.jpg)
