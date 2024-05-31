@@ -12,4 +12,4 @@
 - Gradient Colors and Text Effects: The use of gradient colors and dynamic text effects within the bubbles sets my animation apart, providing a visually engaging experience.
 
 ## Inspiration
-![image1](/Users/gaoyumeng/Desktop/ygao0000_9103_tut8/images/image1.jpg)
+![image1](images/image1.png)
