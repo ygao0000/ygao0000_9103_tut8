@@ -43,6 +43,7 @@ The move method controls the movement of the bubbles on the canvas, ensuring the
 The display method draws the bubbles with gradient colors and uses noise functions to create dynamic shapes and effects.
 
 5. **Drawing Function:**
+
 In the draw function, the current audio amplitude is obtained, and the reactToSound method is called to make the bubbles dynamically adjust their size based on the audio's sound level.
 Meanwhile, the background is rendered using Perlin noise to create dynamic wave effects, enhancing the visual dynamism.
 ![3](images/3.png)
