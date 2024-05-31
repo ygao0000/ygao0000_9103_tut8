@@ -22,37 +22,37 @@ Our group code presents a presentation for emotions, and in my code I allow the 
 ## Technical Explanation
 My individual code achieves audio-driven animation through the following steps:
 
-1. Preloading Audio Files:
+1. **Preloading Audio Files:**
 
 In the preload function, the background music file assets/bgm.mp3 is loaded using the loadSound function. Preloading ensures the audio file is ready to use when the program starts running.
 
-2. Initializing Audio Analysis:
+2. **Initializing Audio Analysis:**
 
 In the setup function, a p5.Amplitude object is created to analyze the amplitude of the audio. This allows us to get the real-time sound level of the audio, which drives the animation effects.
 ![1](images/1.png)
 
-3. Defining the MovingBubble Class:
+3. **Defining the MovingBubble Class:**
 
 The MovingBubble class defines the properties and behaviors of the bubbles, including position, size, color, noise offset, movement speed, and scaling effect.
 The newly added reactToSound method adjusts the bubble size based on the audio amplitude, enabling the bubbles to respond to the currently playing audio.
 ![2](images/2.png)
 
-4. Moving and Displaying Bubbles:
+4. **Moving and Displaying Bubbles:**
 
 The move method controls the movement of the bubbles on the canvas, ensuring they do not go out of bounds.
 The display method draws the bubbles with gradient colors and uses noise functions to create dynamic shapes and effects.
 
-5. Drawing Function:
+5. **Drawing Function:**
 In the draw function, the current audio amplitude is obtained, and the reactToSound method is called to make the bubbles dynamically adjust their size based on the audio's sound level.
 Meanwhile, the background is rendered using Perlin noise to create dynamic wave effects, enhancing the visual dynamism.
 ![3](images/3.png)
 
-6. Play/Pause Functionality:
+6. **Play/Pause Functionality:**
 
 The play_pause function controls the playback of the audio. When the "Play/Stop" button is clicked, it toggles between playing and stopping the audio.
 ![4](images/4.png)
 
-7. Mouse Click to Play Music:
+7. **Mouse Click to Play Music:**
 
 By clicking on a bubble, the corresponding music is played, enhancing the interactive experience. Clicking any bubble triggers the audio file associated with that bubble.
 ![5](images/5.png)
